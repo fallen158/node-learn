@@ -40,7 +40,7 @@
             post(url, data).then(res => {
                 if (res.code === 0) {
                     // 登录成功
-                    // location.href = './admin.html'
+                    location.href = './admin.html'
                 } else {
                     // 登录失败
                     alert(res.message)

@@ -2,6 +2,7 @@ const { SussessModel, ErrorModel } = require('../model/resModel')
 const { login } = require('../controller/user')
 const { set } = require('../db/redis')
 const handleUserRouter = (req, res) => {
+  
   const method = req.method
   if (method === 'POST' && req.path === '/api/user/login') {
     const { username, password } = req.body

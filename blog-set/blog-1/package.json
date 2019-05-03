@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server/index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev nodemon bin/www.js",
-    "prd": "cross-env NODE_ENV=production pm2 bin/www.js",
+    "dev": "cross-env NODE_ENV=dev nodemon bin/www",
+    "prd": "cross-env NODE_ENV=production pm2 bin/www",
     "test": "standard --fix"
   },
   "license": "MIT",
